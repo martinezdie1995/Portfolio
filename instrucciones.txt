@@ -1,0 +1,13 @@
+la pagina es un portfolio personal de un desarrollador
+quiero que la pagina tenga una barra de navegacion en la pagina,
+donde el fondo de esa barra de navegacion tiene que ser devLogo.
+las secciones tienen que tener inicio, Proyectos, Skills y tecnologias 
+(las skills son las blandas), sobre mi, donde 
+a la izquiera escribo el texto y a la derecha va una imagen, contacto.
+la seccion de proyectos quiero que haya un div para cada proyecto con una imagen de demostracion, y cada proyecto va a ir apareciendo en la pagina a medida que bajamos
+en la parte de tecnologias, quiero que agregues html, css, javascript, react con sus repectivos logos.
+y agrgar logo de bases de datos, node.js en gris porque son los que estoy desarrollando.
+un titulo que va a decir FrontEnd Developer y al lado otra imagen llamada imgCaricatura
+cuando se toca un proyecto me tiene que mandar a una pagina donde se muestre el proyecto individual, con imagenes, videos si es necesario, descripcion
+todo el contenido tiene que tener accesibilidad, Seo y ser adaptable a diferentes tamaños de pantallas.
+el acabado tiene que ser profesional, pero el estilo no muy serio, mas bien moderno y juvenil.

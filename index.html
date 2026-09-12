@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfolio personal de una desarrolladora FrontEnd: proyectos, habilidades y tecnologías web.">
+	<meta name="theme-color" content="#120d0f">
+	<title>Portfolio | FrontEnd Developer</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="nav" aria-label="Navegación principal">
+		<div class="nav-inner">
+			<a class="brand" href="#inicio" aria-label="Ir al inicio"><span class="brand-mark">DM</span> martinez.Dev</a>
+			<button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+			<nav class="nav-links">
+				<a href="#proyectos">Proyectos</a>
+				<a href="#sobre-mi">Sobre mí</a>
+				<a href="#skills">Skills</a>
+				<a href="#tecnologias">Tecnologías</a>
+				<a href="#contacto">Contacto</a>
+				<a class="nav-cv" href="Diego Martinez CV.pdf" download="CV-Diego-Martinez.pdf">Descargar CV <span aria-hidden="true">↓</span></a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero" id="inicio">
+			<div class="wrap hero-grid">
+				<div class="reveal">
+					<h1>FrontEnd<br><span>Developer</span></h1>
+					<p class="hero-copy">Diseño y desarrollo experiencias digitales claras, expresivas y con un poquito de personalidad.</p>
+					<a class="button" href="#proyectos">Ver proyectos <span aria-hidden="true">↘</span></a>
+				</div>
+				<div class="hero-art reveal">
+					<span class="sticker">Transformando ideas en soluciones ✦</span>
+					<img  class="imgCaricatura" src="imgCaricatura.jpeg" alt="Ilustración de una desarrolladora trabajando con su ordenador">
+				</div>
+			</div>
+		</section>
+
+		<div class="marquee" aria-hidden="true"><span class="marquee-track">HTML · CSS · JAVASCRIPT · REACT · UI DESIGN · ACCESIBILIDAD · HTML · CSS · JAVASCRIPT · REACT · UI DESIGN · ACCESIBILIDAD · </span></div>
+
+		<section class="section projects" id="proyectos">
+			<div class="wrap">
+				<div class="section-heading reveal"><span class="eyebrow">01 / Proyectos</span><h2>Ideas que<br>se vuelven interfaz.</h2></div>
+				<div class="project-grid">
+					<article class="project-card reveal" data-project="ecommerce">
+						<button class="project-image" aria-label="Ver detalles de Ecommerce" style="padding:0;border:0;width:100%;cursor:pointer;background:none"><span class="project-number">01</span><img src="pics/Sin título.png" alt="pagina de inicio de Ecommerce"></button>
+						<div class="project-info"><div><h3>Ecommerce</h3><p>UX / FrontEnd / JavaScript</p></div><a class="project-cta" href="project.html?project=ecommerce">Ver proyecto <span aria-hidden="true">↗</span></a></div>
+					</article>
+					<article class="project-card reveal" data-project="finanzas">
+						<button class="project-image" aria-label="Ver detalles de FinanzaVista" style="padding:0;border:0;width:100%;cursor:pointer;background:none"><span class="project-number">02</span><img src="pics/financiera1.png" alt="Dashboard de información financiera FinanzaVista"></button>
+						<div class="project-info"><div><h3>FinanzaVista</h3><p>Dashboard / APIs / Chart.js</p></div><a class="project-cta" href="project.html?project=finanzas">Ver proyecto <span aria-hidden="true">↗</span></a></div>
+					</article>
+					<article class="project-card reveal" data-project="tareas">
+						<button class="project-image" aria-label="Ver detalles de Tareas" style="padding:0;border:0;width:100%;cursor:pointer;background:none"><span class="project-number">03</span><img src="pics/todolist1.png" alt="Plantas verdes de interior"></button>
+						<div class="project-info"><div><h3>Página de tareas</h3><p>Product design / JavaScript</p></div><a class="project-cta" href="project.html?project=tareas">Ver proyecto <span aria-hidden="true">↗</span></a></div>
+					</article>
+					
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="sobre-mi">
+			<div class="wrap about-grid">
+				<div class="about-image reveal"><img src="imagensobremi2.jpg" alt="Persona en un oficina, cruzada de brazos mirando a la camara"></div>
+				<div class="about-copy reveal"><span class="eyebrow">02 / Sobre mí</span><h2>Hola, soy Diego.</h2><p>Me gusta encontrar el punto en el que una buena idea, una interfaz amable y un código bien cuidado empiezan a hablar el mismo idioma.</p><p>Trabajo poniendo atención a los detalles, pensando en las personas que van a usar cada producto y aprendiendo algo nuevo en cada proyecto.</p><div class="facts"><div class="fact"><strong>+1</strong><span>Años Programando</span></div><div class="fact"><strong>100%</strong><span>Aprendizaje Constante</span></div></div><a class="button cv-button" href="cv-diego-martinez.html" download><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i> Descargar CV</a></div>
+			</div>
+		</section>
+
+		<section class="section skills" id="skills">
+			<div class="wrap"><div class="section-heading reveal"><span class="eyebrow">03 / Habilidades blandas</span><h2>Cómo trabajo.</h2></div><div class="skill-list"><article class="skill reveal"><span class="skill-icon">✦</span><h3>Comunicación</h3><p>Traduzco ideas complejas en decisiones claras, respetando siempre un feedback sobre el proyecto.</p></article><article class="skill reveal"><span class="skill-icon">◎</span><h3>Empatía</h3><p>Observo, pregunto y diseño pensando en las personas, no solo en las pantallas.</p></article><article class="skill reveal"><span class="skill-icon">↗</span><h3>Resolución</h3><p>Me gustan los retos y encontrar soluciones simples para problemas grandes.</p></article></div></div>
+		</section>
+
+		<section class="section tech" id="tecnologias">
+			<div class="wrap"><div class="section-heading reveal"><div><span class="eyebrow">04 / Stack</span><h2>Mis herramientas.</h2></div><p class="eyebrow">Las que uso · las que estoy explorando</p></div><div class="tech-grid"><div class="tech-item reveal"><i class="devicon-html5-plain colored tech-logo" aria-hidden="true"></i><span>HTML</span><small>estructura</small></div><div class="tech-item reveal"><i class="devicon-css3-plain colored tech-logo" aria-hidden="true"></i><span>CSS</span><small>estilo</small></div><div class="tech-item reveal"><i class="devicon-javascript-plain colored tech-logo" aria-hidden="true"></i><span>JavaScript</span><small>interacción</small></div><div class="tech-item reveal"><i class="devicon-react-original colored tech-logo" aria-hidden="true"></i><span>React</span><small>componentes</small></div><div class="tech-item is-learning reveal"><i class="devicon-mysql-original colored tech-logo" aria-hidden="true"></i><span>Bases de datos</span><small>en desarrollo</small></div><div class="tech-item is-learning reveal"><i class="devicon-nodejs-plain colored tech-logo" aria-hidden="true"></i><span>Node.js</span><small>en desarrollo</small></div></div></div>
+		</section>
+
+		<section class="section contact" id="contacto"><div class="wrap contact-grid"><div class="reveal"><span class="eyebrow">05 / Contacto</span><h2>Hagamos algo creativo.</h2><p class="contact-copy">¿Tienes una idea o un proyecto? Mi bandeja está abierta.</p><div class="contact-links"><a href="https://www.linkedin.com/in/diego-martinez" target="_blank" rel="noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a><a href="https://github.com/martinezdie1995" target="_blank" rel="noreferrer"><i class="bi bi-github" aria-hidden="true"></i><span>GitHub</span></a><a href="https://mail.google.com/mail/?view=cm&fs=1&to=martinezdeveloper95@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/gmail/EA4335" alt="" aria-hidden="true"><span>Gmail</span></a></div></div><form action="https://formspree.io/f/xppzgawd" method="POST" class="contact-form reveal" id="contact-form"><input type="hidden" name="_subject" value="Nuevo mensaje desde martinez.Dev"><input type="hidden" name="_replyto" id="reply-to"><div class="field"><label for="name">Tu nombre</label><input id="name" name="name" type="text" placeholder="¿Cómo te llamas?" required></div><div class="field"><label for="email">Tu email</label><input id="email" name="email" type="email" placeholder="tu@email.com" required></div><div class="field"><label for="message">Mensaje</label><textarea id="message" name="message" placeholder="Cuéntame un poco más..." required></textarea></div><button class="button" type="submit">Enviar mensaje <span aria-hidden="true">↗</span></button><p id="form-status" role="status" aria-live="polite"></p></form></div></section>
+	</main>
+	<footer><div class="wrap footer-inner"><span>© 2026 martinez.Dev</span><span>Transformando ideas en soluciones.</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

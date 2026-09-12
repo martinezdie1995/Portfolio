@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detalle de proyecto de martinez.Dev">
+  <title>Proyecto | martinez.Dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav" aria-label="Navegación principal">
+    <div class="nav-inner">
+      <a class="brand" href="index.html#inicio" aria-label="Volver al inicio"><span class="brand-mark">DM</span> martinez.Dev</a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="index.html#proyectos">Proyectos</a>
+        <a href="index.html#sobre-mi">Sobre mí</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#tecnologias">Tecnologías</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="project-detail" class="project-detail">
+    <div class="wrap">
+      <a class="back-link" href="index.html#proyectos">← Volver a proyectos</a>
+      <div class="detail-header">
+        <span class="eyebrow" id="detail-category">Proyecto</span>
+        <h1 id="detail-title">Proyecto</h1>
+      </div>
+      <div class="detail-layout">
+        <div class="detail-media">
+          <div class="detail-main-frame"><img id="detail-main-image" src="" alt=""></div>
+          <div class="detail-thumbnails" id="detail-thumbnails" aria-label="Seleccionar imagen del proyecto"></div>
+        </div>
+        <aside class="detail-copy">
+          <span class="eyebrow">Descripción</span>
+          <p id="detail-description"></p>
+          <a class="button" id="detail-demo" href="#" target="_blank" rel="noreferrer">Probar proyecto <span aria-hidden="true">↗</span></a>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
